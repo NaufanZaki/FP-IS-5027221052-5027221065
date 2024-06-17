@@ -286,15 +286,15 @@
                 function onMessageArrived(message) {
                     var MQTTDataObject
 
- = JSON.parse(message.payloadString);
-                    $("#Room-Temp").text(MQTTDataObject.Temp + " C");
-                    $("#Room-Hum").text(MQTTDataObject.Hum + " %");
-                }
-            });
-        </script>
-      </body>
-    </html>
-    ```
+                 = JSON.parse(message.payloadString);
+                                    $("#Room-Temp").text(MQTTDataObject.Temp + " C");
+                                    $("#Room-Hum").text(MQTTDataObject.Hum + " %");
+                                }
+                            });
+                        </script>
+                      </body>
+                    </html>
+                    ```
 4. Jalankan dengan `live server`.
     ![Live Server Image](image-1.png)
 
