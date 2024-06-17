@@ -484,4 +484,3 @@ client.connect("167.172.87.186", 1883, 60)
 # set the network loop blocking, it will not actively end the program before calling disconnect() or the program crash
 client.loop_forever()
 ```
-4. Demonstrasi
